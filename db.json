@@ -1,0 +1,59 @@
+{
+    "apps": [
+        {
+            "id": "some-id",
+            "uniqueShortId": "AIS",
+            "name": "Azure Integration Services",
+            "dataClassification": "General",
+            "pii": true,
+            "encryptionInTransit": true,
+            "encryptionAtRest": true,
+            "portalAccessSecurityGroup": "",
+            "appType": "HostedWebApp",
+            "serviceTreeComponentId": "",
+            "azureAccessUsersOrGroups": [],
+            "hostingSets": [],
+            "security": {
+                "apimSubscriptionKey": "",
+                "allowedKeyVaults": [
+                    "AAPAKeyVault"
+                ],
+                "allowedAzureADClients": [
+                    "53159c68-9814-47db-af9f-eaf843ab7d96"
+                ],
+                "allowedHostNames": [
+                    ""
+                ]
+            }
+        }
+    ],
+    "endpoints": [
+        {
+            "appId": "",
+            "name": "",
+            "description": "",
+            "hostNames": [],
+            "ipAddresses": [],
+            "port": "",
+            "dataClassification": "General",
+            "pii": true,
+            "encryptionInTransit": true,
+            "encryptionAtRest": true,
+            "networkZone": "",
+            "aclReferences": [],
+            "fosseeReferences": []
+        }
+    ],
+    "hostingSets": [
+        {
+            "appPlanName": "PPE-ASP-01-WUS2",
+            "apimName": "XYZ-PPE-APIM-01-WUS2",
+            "trafficManagerName": ""
+        },
+        {
+            "appPlanName": "PPE-ASP-01-WCUS",
+            "apimName": "XYZ-PPE-APIM-01-WCUS",
+            "trafficManagerName": ""
+        }
+    ]
+}
