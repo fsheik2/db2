@@ -12,7 +12,7 @@
             "appType": "HostedWebApp",
             "serviceTreeComponentId": "",
             "azureAccessUsersOrGroups": [],
-            "hostingSets": [],
+            "hostingSetIds": [],
             "security": {
                 "apimSubscriptionKey": "",
                 "allowedKeyVaults": [
