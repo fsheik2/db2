@@ -46,13 +46,13 @@
     ],
     "hostingSets": [
         {
-            "id": "PPE-ASP-01-APIM-01-WUS2"
+            "id": "PPE-ASP-01-APIM-01-WUS2",
             "appPlanName": "PPE-ASP-01-WUS2",
             "apimName": "XYZ-PPE-APIM-01-WUS2",
             "trafficManagerName": ""
         },
         {
-            "id": "PPE-ASP-01-APIM-01-WCUS"
+            "id": "PPE-ASP-01-APIM-01-WCUS",
             "appPlanName": "PPE-ASP-01-WCUS",
             "apimName": "XYZ-PPE-APIM-01-WCUS",
             "trafficManagerName": ""
